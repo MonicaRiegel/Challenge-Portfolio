@@ -23,7 +23,7 @@ p a {
 }
 
 .conteudo__apresentacao__imagem__foto {
-    border: 2px solid;
+    border: 1px solid;
     box-shadow: 5px 5px 5px;
     border-radius: 200px;
 }
