@@ -1,0 +1,29 @@
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p a {
+    font-size: 1.5em;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+    background-image: url("/assets/Software-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    
+}
+
+.conteudo__apresentacao__imagem__foto {
+    border: 2px solid;
+    box-shadow: 5px 5px 5px;
+    border-radius: 200px;
+}

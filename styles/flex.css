@@ -1,0 +1,68 @@
+/* MENU */
+
+.menu {
+    display: flex;
+    padding: 15px;
+
+}
+
+.menu__inicio {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.menu__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+/* CONTEUDO*/
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+
+.conteudo__apresentacao {
+    display: flex;
+}
+
+.conteudo__apresentacao__texto {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.conteudo__apresentacao__texto__links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 55px;
+}
+
+.conteudo__apresentacao__imagem {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
