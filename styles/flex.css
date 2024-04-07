@@ -1,9 +1,11 @@
 /* MENU */
 
-.menu {
+.menu {    
     display: flex;
-    padding: 15px;
-
+    height: 10%;
+    width: 100%;
+    padding: 5px 100px 5px 100px;
+    position: fixed;
 }
 
 .menu__inicio {
@@ -14,7 +16,7 @@
 
 .menu__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 50%;
 }
@@ -25,44 +27,48 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 15px;
+    height: 70%;
+    padding: 100px;
 
 }
 
 .conteudo__apresentacao {
     display: flex;
+    justify-content: center;
+    gap: 24px
 }
 
 .conteudo__apresentacao__texto {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 5px;
+    justify-content: space-evenly;
+    gap: 24px;
 }
 
 .conteudo__apresentacao__texto__links {
     display: flex;
     justify-content: flex-start;
-    gap: 55px;
+    gap: 32px;
 }
 
 .conteudo__apresentacao__imagem {
+    width: 30%;  
     display: flex;
-    justify-content: center;
-    width: 40%;
+    justify-content: end;
+    padding: 0;
 }
 
 /* RODAPÉ */
 
 .rodape {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 5%;
-    margin-top: 1%;
+    height: 10%;
+    margin: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
-
