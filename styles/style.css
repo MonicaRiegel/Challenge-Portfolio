@@ -39,7 +39,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: justify;
-    text-shadow: #FFFFFF 2px 2px 2px;
+    text-shadow: #8a8888 3px 3px 3px;
     
 }
 
@@ -47,8 +47,27 @@ a {
     height: 18.75em;
     width: 18.75em;
     border: 1px solid;
-    box-shadow: #FFFFFF 5px 5px 5px;
+    box-shadow: #8a8888 5px 5px 5px;
     border-radius: 200px;
+}
+
+.conteudo__subtitulo {
+    text-align: center;
+}
+
+.conteudo__tabelas__quadros {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    box-shadow: #8a8888 5px 5px 5px;
+    width: 176px;
+    height: 174px;
+    
+}
+
+.conteudo__tabelas__imagem {
+    width: 64px;
+
 }
 
 /* RODAPÉ */
