@@ -61,7 +61,11 @@
     padding: 0;
 }
 
-
+.conteudo__sobremim {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
 .conteudo__tabelas {
     display: flex;
