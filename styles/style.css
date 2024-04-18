@@ -61,12 +61,12 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     box-shadow: #8a8888 5px 5px 5px;
-    width: 176px;
-    height: 174px;
+    width: 10.75em;
+    height: 10.75em;
 }
 
 .conteudo__tabelas__imagem__skills {
-    width: 64px;
+    width: 4em;
 }
 
 .conteudo__tabelas__quadros__hobbies {
@@ -74,16 +74,16 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     box-shadow: #8a8888 5px 5px 5px;
-    width: 250px;
-    height: 174px;
+    width: 15.5em;
+    height: 10.75em;
 }
 
 .conteudo__tabelas__imagem__hobbies {
-    width: 128px;
+    width: 8em;
 }
 
 .conteudo__tabelas__nome__formacao{
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /* RODAPÉ */
