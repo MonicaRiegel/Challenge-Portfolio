@@ -37,7 +37,7 @@
 .conteudo__apresentacao {
     display: flex;
     justify-content: center;
-    gap: 24px
+    gap: 32px
 }
 
 .conteudo__apresentacao__texto {
@@ -64,20 +64,69 @@
 .conteudo__sobremim {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
-.conteudo__tabelas {
+.conteudo__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo__tabelas__skills {
     display: flex;
     justify-content: space-between;
 }
 
-.conteudo__tabelas__quadros {
+.conteudo__tabelas__quadros__skills {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 5px;
 }
+
+.conteudo__hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo__tabelas__hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo__tabelas__quadros__hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.conteudo__formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo__tabelas__formacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo__tabelas__quadros__formacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudo__tabelas__imagem__formacao {
+    width: 450px;
+}
+
 
 /* RODAPÉ */
 

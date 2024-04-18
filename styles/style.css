@@ -36,6 +36,7 @@ a {
 
 .conteudo {
     background-image: url("/assets/Software-1024x683.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: justify;
@@ -55,19 +56,34 @@ a {
     text-align: center;
 }
 
-.conteudo__tabelas__quadros {
+.conteudo__tabelas__quadros__skills {
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     box-shadow: #8a8888 5px 5px 5px;
     width: 176px;
     height: 174px;
-    
 }
 
-.conteudo__tabelas__imagem {
+.conteudo__tabelas__imagem__skills {
     width: 64px;
+}
 
+.conteudo__tabelas__quadros__hobbies {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    box-shadow: #8a8888 5px 5px 5px;
+    width: 250px;
+    height: 174px;
+}
+
+.conteudo__tabelas__imagem__hobbies {
+    width: 128px;
+}
+
+.conteudo__tabelas__nome__formacao{
+    font-size: 1.5em;
 }
 
 /* RODAPÉ */
