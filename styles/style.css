@@ -1,11 +1,15 @@
-.varela-round-regular {
-    font-family: "Varela Round", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+:root {
+    --cor-primeira: #FFFFFF;
+    --cor-segunda: #4b4a4a;
+    --cor-terceira: #000000;
+    --cor-quarta: #aaa7a7;
+
+    --font-primeira: "varela Round" , sans-serif;
 }
   
 body {
-    font-family: "varela Round" , sans-serif;
+    font-family: var(--font-primeira);
+    color: var(--cor-primeira);
 }
 
 h1 {
@@ -29,38 +33,48 @@ a {
 /* MENU */
 
 .menu {
-    background-color: #FFFFFF;
+    background-color: var(--cor-primeira);
+    color: var(--cor-terceira);
 }
 
 /* CONTEUDO */
 
 .conteudo {
-    background-image: url("/assets/Software-1024x683.jpg");
+    background-image: url("/assets/fundo.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: justify;
-    text-shadow: #8a8888 3px 3px 3px;
+    text-shadow: var(--cor-segunda) 5px 5px 5px;
     
 }
+
+/* Apresentação */
 
 .conteudo__apresentacao__imagem__foto {
     height: 18.75em;
     width: 18.75em;
     border: 1px solid;
-    box-shadow: #8a8888 5px 5px 5px;
+    box-shadow: var(--cor-quarta) 5px 5px 5px;
     border-radius: 200px;
+}
+
+.conteudo__apresentacao__texto__links__img {
+    filter: invert(100%);
 }
 
 .conteudo__subtitulo {
     text-align: center;
 }
 
+/* Skills */
+
 .conteudo__tabelas__quadros__skills {
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    color: var(--cor-terceira);
+    background-color: var(--cor-primeira);
+    border: 1px solid var(--cor-primeira);
     border-radius: 20px;
-    box-shadow: #8a8888 5px 5px 5px;
+    box-shadow: var(--cor-quarta) 5px 5px 5px;
     width: 10.75em;
     height: 10.75em;
 }
@@ -69,11 +83,14 @@ a {
     width: 4em;
 }
 
+/* Hobbies */
+
 .conteudo__tabelas__quadros__hobbies {
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    color: var(--cor-terceira);
+    background-color: var(--cor-primeira);
+    border: 1px solid var(--cor-primeira);
     border-radius: 20px;
-    box-shadow: #8a8888 5px 5px 5px;
+    box-shadow: var(--cor-quarta) 5px 5px 5px;
     width: 15.5em;
     height: 10.75em;
 }
@@ -81,6 +98,12 @@ a {
 .conteudo__tabelas__imagem__hobbies {
     width: 8em;
 }
+
+.conteudo__tabelas__nome {
+    text-shadow: var(--cor-quarta) 2px 2px 2px;
+}
+
+/* Formação */
 
 .conteudo__tabelas__nome__formacao{
     font-size: 1.25em;
@@ -90,4 +113,5 @@ a {
 
 .rodape p{
     font-size: 1em;
+    color: var(--cor-terceira)
 }

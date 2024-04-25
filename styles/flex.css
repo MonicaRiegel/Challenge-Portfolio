@@ -34,6 +34,8 @@
     gap: 64px;
 }
 
+/* Apresentação */
+
 .conteudo__apresentacao {
     display: flex;
     justify-content: center;
@@ -61,11 +63,15 @@
     padding: 0;
 }
 
+/* Sobre mim */
+
 .conteudo__sobremim {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
+
+/* Skills */
 
 .conteudo__skills {
     display: flex;
@@ -85,6 +91,8 @@
     justify-content: flex-end;
     padding: 5px;
 }
+
+/* Hobbies */
 
 .conteudo__hobbies {
     display: flex;
@@ -106,6 +114,8 @@
     padding: 10px;
     gap: 5px;
 }
+
+/* Formação */
 
 .conteudo__formacao {
     display: flex;
@@ -129,6 +139,13 @@
 .conteudo__tabelas__imagem__formacao {
     width: 400px;
 }
+
+/* Experiências */
+
+
+
+/* Contato */
+
 
 
 /* RODAPÉ */
