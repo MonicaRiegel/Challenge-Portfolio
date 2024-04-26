@@ -2,6 +2,7 @@
 
 .menu {    
     display: flex;
+    position: fixed;
     height: 10%;
     width: 100%;
     padding: 5px 0px 5px 0px;
@@ -57,8 +58,6 @@
 
 .conteudo__apresentacao__imagem {
     width: 30%;  
-    display: flex;
-    justify-content: end;
     padding: 0;
 }
 
@@ -135,9 +134,7 @@
     gap: 10px;
 }
 
-.conteudo__tabelas__imagem__formacao {
-    width: 400px;
-}
+
 
 /* Experiências */
 

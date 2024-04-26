@@ -13,21 +13,21 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 a {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* MENU */
@@ -52,8 +52,8 @@ a {
 /* Apresentação */
 
 .conteudo__apresentacao__imagem__foto {
-    height: 18.75em;
-    width: 18.75em;
+    height: 18.75rem;
+    width: 18.75rem;
     border: 1px solid;
     box-shadow: var(--cor-quarta) 5px 5px 5px;
     border-radius: 200px;
@@ -75,12 +75,12 @@ a {
     border: 1px solid var(--cor-primeira);
     border-radius: 20px;
     box-shadow: var(--cor-quarta) 5px 5px 5px;
-    width: 10.75em;
-    height: 10.75em;
+    width: 10.75rem;
+    height: 10.75rem;
 }
 
 .conteudo__tabelas__imagem__skills {
-    width: 4em;
+    width: 4rem;
 }
 
 /* Hobbies */
@@ -91,12 +91,12 @@ a {
     border: 1px solid var(--cor-primeira);
     border-radius: 20px;
     box-shadow: var(--cor-quarta) 5px 5px 5px;
-    width: 15.5em;
-    height: 10.75em;
+    width: 15.5rem;
+    height: 10.75rem;
 }
 
 .conteudo__tabelas__imagem__hobbies {
-    width: 8em;
+    width: 8rem;
 }
 
 .conteudo__tabelas__nome {
@@ -105,13 +105,22 @@ a {
 
 /* Formação */
 
+.conteudo__tabelas__quadros__formacao {
+    width: 25rem;
+}
+
+.conteudo__tabelas__imagem__formacao {
+    width: 23rem;
+    height: 23rem;
+}
+
 .conteudo__tabelas__nome__formacao{
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 /* RODAPÉ */
 
 .rodape p{
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--cor-terceira)
 }

@@ -1,5 +1,5 @@
 function todaApresentacao() {
-    let sobremim = document.getElementById('apresentacao');
+    let apresentacao = document.getElementById('apresentacao');
     apresentacao.style.display = "block";
     sobremim.style.display = "block";
     skills.style.display = "block";
