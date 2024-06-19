@@ -142,7 +142,29 @@
 
 /* Contato */
 
+.conteudo__contato__apresentacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.conteudo__contato__imagem{
+    width: 50%;
+}
+
+.conteudo__contato__formulario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudo__contato__formulario__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 /* RODAPÉ */
 

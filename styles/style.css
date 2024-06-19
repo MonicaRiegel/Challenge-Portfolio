@@ -13,21 +13,21 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 a {
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 
 /* MENU */
@@ -52,8 +52,8 @@ a {
 /* Apresentação */
 
 .conteudo__apresentacao__imagem__foto {
-    height: 18.75rem;
-    width: 18.75rem;
+    height: 13rem;
+    width: 13rem;
     border: 1px solid;
     box-shadow: var(--cor-quarta) 5px 5px 5px;
     border-radius: 200px;
@@ -116,6 +116,24 @@ a {
 
 .conteudo__tabelas__nome__formacao{
     font-size: 1.25rem;
+}
+
+/* Projetos */
+
+/* Contato */
+
+.conteudo__contato__imagem {
+    width: 25rem;
+    height: 25rem;
+}
+
+.conteudo__contato__formulario__botao {
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--cor-segunda);
+    color: var(--cor-primeira);
+    border-radius: 20px;
+    box-shadow: var(--cor-quarta) 5px 5px 5px;
 }
 
 /* RODAPÉ */
