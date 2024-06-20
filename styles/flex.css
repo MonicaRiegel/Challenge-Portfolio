@@ -3,7 +3,7 @@
 .menu {    
     display: flex;
     position: fixed;
-    height: 10%;
+    height: 6%;
     width: 100%;
     padding: 5px 0px 5px 0px;
 }
@@ -138,9 +138,54 @@
 
 /* Experiências */
 
+.conteudo__experiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.conteudo__experiencias__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo__experiencia {
+    display: flex;   
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteudo__experiencia__2{
+    display: flex;   
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.contato__experiencia__img {
+    width: 50%;
+}
+
+.contato__experiencia__descricao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudo__experiencia__botoes {
+    display: flex;
+    gap: 20px;
+}
 
 /* Contato */
+.conteudo__contato {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
 .conteudo__contato__apresentacao{
     display: flex;

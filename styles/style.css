@@ -118,7 +118,20 @@ a {
     font-size: 1.25rem;
 }
 
-/* Projetos */
+/* Experiências */
+
+.conteudo__experiencia__img {
+    width: 30rem;
+   
+}
+
+.conteudo__experiencia__botao {
+    font-size: 1rem;
+    border-radius: 20px;
+    width: 10rem;
+    height: 4rem;
+    box-shadow: var(--cor-quarta) 5px 5px 5px;
+}
 
 /* Contato */
 
