@@ -231,3 +231,35 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width : 768px) {
+    .menu__links {
+        display: none;
+    }
+
+    .conteudo__tabelas__skills {
+        flex-wrap: wrap;
+    }
+
+    .conteudo__tabelas__hobbies {
+        flex-wrap: wrap;
+    }
+
+    .conteudo__experiencia {
+        flex-direction: column;
+    }
+    
+    .conteudo__experiencia__2 {
+        flex-direction: column;
+    }
+
+    .conteudo__contato__imagem {
+        display: none;
+    }
+
+    .conteudo__contato__formulario {
+        width: 70%;
+    }
+
+    
+}
