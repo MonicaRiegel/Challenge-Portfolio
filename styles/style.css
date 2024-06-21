@@ -30,6 +30,10 @@ a {
     font-size: 0.6rem;
 }
 
+input {
+    color: var(--cor-terceira);
+}
+
 /* MENU */
 
 .menu {

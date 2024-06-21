@@ -227,32 +227,32 @@
                 <section  class="conteudo__contato__formulario">
                     <p>Quer entrar em contato comigo?</p>
                     <p>Preencha o formulário a baixo e entrarei em contato o mais rápido possivel.</p>
-                    <div>
+                    <form class="conteudo__contato__formulario__completo" data-formulario>
                         <fieldset class="conteudo__contato__formulario__campo">
-                            <label>Nome</label>
-                            <input type="text" required>
+                            <label for="nome">Nome</label>
+                            <input name="nome" id="nome" type="text" minlength="3" maxlength="50" required/>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <fieldset class="conteudo__contato__formulario__campo">
-                            <label>E-mail</label>
-                            <input type="email" required>
+                            <label for="email">E-mail</label>
+                            <input name="email" id="email" type="email" minlength="4" required/>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <fieldset class="conteudo__contato__formulario__campo">
-                            <label>Assunto</label>
-                            <input type="text" required>
+                            <label for="assunto">Assunto</label>
+                            <input name="assunto" id="assunto" type="text" maxlength="50" required/>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <fieldset class="conteudo__contato__formulario__campo">
-                            <label>Mensagem</label>
-                            <input type="text" required>
+                            <label for="mensagem">Mensagem</label>
+                            <input name="mensagem" id="mensagem" type="text" maxlength="300" required/>
                             <span class="mensagem-erro"></span>
                         </fieldset>
                         <div>
-                            <input value="Enviar" class="conteudo__contato__formulario__botao" id="enviar" type="submit">
+                            <input value="Enviar" class="conteudo__contato__formulario__botao" id="enviar" type="submit"/>
                             <span class="mensagem-erro"></span>
                         </div>
-                    </div>
+                    </form>
                 </section>
             </section>
         </section>
@@ -261,6 +261,6 @@
         <p>Desenvolvido por Mônica Riegel</p>
         <p>2024</p>
     </footer>
-    
+    <script src="/main.js" type="module"></script>
 </body>
 </html>
