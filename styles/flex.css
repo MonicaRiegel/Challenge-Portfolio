@@ -27,9 +27,7 @@
 .conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 95%;
-    height: 90%;
+    justify-content: space-around;  
     padding: 100px 30px 100px 30px;
     gap: 64px;
 }
@@ -37,6 +35,7 @@
 /* Apresentação */
 
 .conteudo__apresentacao {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -59,12 +58,15 @@
 
 .conteudo__apresentacao__imagem {
     width: 30%;  
+    display: flex;
+    justify-content: center;
     padding: 0;
 }
 
 /* Sobre mim */
 
 .conteudo__sobremim {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -74,6 +76,7 @@
 /* Skills */
 
 .conteudo__skills {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -96,6 +99,7 @@
 /* Hobbies */
 
 .conteudo__hobbies {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -104,7 +108,7 @@
 
 .conteudo__tabelas__hobbies {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -120,6 +124,7 @@
 /* Formação */
 
 .conteudo__formacao {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -128,14 +133,13 @@
 
 .conteudo__tabelas__formacao {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 24px;
 }
 
 .conteudo__tabelas__quadros__formacao {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -144,6 +148,7 @@
 /* Experiências */
 
 .conteudo__experiencias {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -169,11 +174,11 @@
     gap: 20px;
 }
 
-.contato__experiencia__img {
+.conteudo__experiencia__img {
     width: 50%;
 }
 
-.contato__experiencia__descricao {
+.conteudo__experiencia__descricao {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -188,6 +193,7 @@
 
 /* Contato */
 .conteudo__contato {
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -253,6 +259,14 @@
         flex-direction: column;
     }
 
+    .conteudo__experiencia__img {
+        width: 100%;
+    }
+    
+    .conteudo__experiencia__descricao {
+        width: 100%;
+    }
+
     .conteudo__contato__imagem {
         display: none;
     }
@@ -260,6 +274,32 @@
     .conteudo__contato__formulario {
         width: 70%;
     }
+}
 
-    
+@media (max-width : 360px) {
+    .conteudo__apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .conteudo__apresentacao__texto {
+        width: 90%;
+    }
+
+    .conteudo__apresentacao__imagem {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .conteudo__tabelas__skills {
+        justify-content: center;
+    }
+
+    .conteudo__tabelas__hobbies {
+        justify-content: center;
+    }
+
+    .conteudo__tabelas__formacao {
+        justify-content: center;
+        flex-direction: column;
+    }
 }
