@@ -153,6 +153,11 @@ input {
     box-shadow: var(--cor-quarta) 5px 5px 5px;
 }
 
+.mensagem__erro {
+    color: red;
+    font-size: 0.8rem;
+}
+
 /* RODAPÉ */
 
 .rodape p{

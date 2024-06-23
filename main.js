@@ -60,7 +60,7 @@ function verificaCampo(campo) {
             console.log(mensagem);
         }
     })
-    const mensagemErro = campo.parentNode.querySelector('.mensagem-erro')
+    const mensagemErro = campo.parentNode.querySelector('.mensagem__erro')
     const validadorDeInput = campo.checkValidity();
 
     if (!validadorDeInput) {
